@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raja\\source\\repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj": {}
+    "C:\\Users\\Raja\\Source\\Repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raja\\source\\repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj": {
+    "C:\\Users\\Raja\\Source\\Repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raja\\source\\repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj",
+        "projectUniqueName": "C:\\Users\\Raja\\Source\\Repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj",
         "projectName": "ASP.NETCore_Assignment-3",
-        "projectPath": "C:\\Users\\Raja\\source\\repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj",
+        "projectPath": "C:\\Users\\Raja\\Source\\Repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3.csproj",
         "packagesPath": "C:\\Users\\Raja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raja\\source\\repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\obj\\",
+        "outputPath": "C:\\Users\\Raja\\Source\\Repos\\ASP.NETCore_Assignment-3\\ASP.NETCore_Assignment-3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
