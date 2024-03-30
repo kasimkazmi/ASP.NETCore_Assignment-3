@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RajakazmiA3.props" />
+</Project>
